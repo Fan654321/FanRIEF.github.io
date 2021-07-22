@@ -1,0 +1,30 @@
+/* font */
+header {text-align: center;
+background-color: #F1B82D;}
+    main{
+      border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+      text-align: left;
+    }
+  
+
+    footer 
+    {background-color: #F1B82D;
+        text-align: center;}
+
+        hr.dashed {
+            border-top: 3px dashed #bbb;
+          }
+  /* Below is the code for Grid creating for About Page */
+  @media only screen and (max-width: 640px) {
+    body {
+      width: 100%;}
+      img {
+        width: 100%;
+        height: auto;
+      }
+  }
+    
+  
