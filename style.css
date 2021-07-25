@@ -1,6 +1,9 @@
 /* font */
+
 header {text-align: center;
 background-color: #F1B82D;}
+
+
     main{
       border: none;
       padding: 50px;
@@ -8,7 +11,8 @@ background-color: #F1B82D;}
       font-family: sans-serif
       text-align: left;
     }
-  
+    
+    div.RQ {text-align: center;}
 
     footer 
     {background-color: #F1B82D;
@@ -17,7 +21,18 @@ background-color: #F1B82D;}
         hr.dashed {
             border-top: 3px dashed #bbb;
           }
-  /* Below is the code for Grid creating for About Page */
+
+
+table {border-collapse: collapse;}
+table th {text-align: left;
+            background-color:#FAEBD7 ;
+        padding: 4px 30px 4px 8px;}
+table td {border: 1px solid #e3e3e3;
+          padding: 4px 8px; background-color:#FAEBD7 ;}
+
+
+
+  /* Below is the code for Grid creating for  Page */
   @media only screen and (max-width: 640px) {
     body {
       width: 100%;}
@@ -26,5 +41,125 @@ background-color: #F1B82D;}
         height: auto;
       }
   }
-    
   
+  /*grid
+
+  .wrapper * {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 720px;
+  }
+  
+  header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    background-color: #F1B82D;
+  }
+ 
+  A {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  B {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  C {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  D {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  E {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  F {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  G {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  H {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  I {
+    grid-row-start: 10;
+    grid-row-end: 11;
+    text-align: left;
+    border: none;
+      padding: 50px;
+      margin: 20px;
+      font-family: sans-serif
+  }
+
+  footer {
+    grid-row-start: 11;
+    grid-row-end: 12;
+    background-color: #F1B82D;
+        text-align: center;
+  }
+
+*/
